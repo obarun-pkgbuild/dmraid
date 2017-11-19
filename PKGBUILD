@@ -12,7 +12,7 @@ conflicts=('mkinitcpio<0.7')
 depends=('device-mapper>=2.0.54')
 optdepends=('dmraid-s6rcserv: dmraid s6-rc service'
 			'dmraid-runitserv: dmraid runit service')
-arch=('i686' 'x86_64')
+arch=('x86_64')
 license=('GPL')
 source=(#https://sources.archlinux.org/other/dmraid/${pkgname}-$pkgver.tar.bz2
         http://people.redhat.com/~heinzm/sw/dmraid/src/${pkgname}-1.0.0.rc16-3.tar.bz2
