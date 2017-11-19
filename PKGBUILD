@@ -10,8 +10,6 @@ pkgdesc="Device mapper RAID interface"
 url="http://people.redhat.com/~heinzm/sw/dmraid/"
 conflicts=('mkinitcpio<0.7')
 depends=('device-mapper>=2.0.54')
-optdepends=('dmraid-s6rcserv: dmraid s6-rc service'
-			'dmraid-runitserv: dmraid runit service')
 arch=('x86_64')
 license=('GPL')
 source=(#https://sources.archlinux.org/other/dmraid/${pkgname}-$pkgver.tar.bz2
